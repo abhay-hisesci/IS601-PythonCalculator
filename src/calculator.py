@@ -11,3 +11,7 @@ class calculator:
     def subtract(self, a, b):
         c = b - a
         return c
+
+    def multiply(self, a, b):
+        c = b * a
+        return c
