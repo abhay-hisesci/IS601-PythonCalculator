@@ -22,5 +22,9 @@ class MyTestCase(unittest.TestCase):
         calc = calculator()
         self.assertEqual(calc.multiply(2, 5), 10)
 
+    def test_division(self):
+        calc = calculator()
+        self.assertEqual(calc.divide(2, 10), 5)
+
 if __name__ == '__main__':
     unittest.main()
