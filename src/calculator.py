@@ -21,5 +21,9 @@ class calculator:
         return c
 
     def square(self, a):
-        b = a * a
+        b = a ** 2
+        return b
+
+    def square_root(self, a):
+        b = a**(float(1)/2)
         return b
