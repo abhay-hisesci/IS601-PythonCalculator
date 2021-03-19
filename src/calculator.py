@@ -19,3 +19,7 @@ class calculator:
     def divide(self, a, b):
         c = b / a
         return c
+
+    def square(self, a):
+        b = a * a
+        return b
