@@ -7,3 +7,7 @@ class calculator:
     def add(self, a, b):
         c = a + b
         return c
+
+    def subtract(self, a, b):
+        c = b - a
+        return c
