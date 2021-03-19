@@ -25,5 +25,5 @@ class calculator:
         return b
 
     def square_root(self, a):
-        b = a**(float(1)/2)
+        b = a**(0.5)
         return b
